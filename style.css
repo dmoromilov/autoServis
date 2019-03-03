@@ -1,11 +1,3 @@
-/**
- * Theme Name: AutoService - Car Repair and Car Service
- * Version: 1.0
- * Description: AutoService is a full responsive template best suitable for mechanic auto shop, car repair, auto mechanic, car service, auto repair shop, mechanic workshop, auto service, automotive, batteries, tire or wheel shop.
- * Author: BlogWP
- * Author URI: https://themeforest.net/user/blogwp
- */
-
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i|Poppins:300,400,500,600,700&subset=latin");
 
 @import "assets/css/bootstrap.css";
@@ -28,18 +20,18 @@
 @import "includes/rev-slider/css/layers.css";
 @import "includes/rev-slider/css/navigation.css";
 
-/* Reset Browsers
+/* Reset Browsers img - height:auto;max-width:100%;
 -------------------------------------------------------------- */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;font:inherit;vertical-align:baseline;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html{font-size:62.5%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}body{background:#fff;line-height:1;}article,aside,details,figcaption,figure,footer,header,main,nav,section{display:block}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0;}caption,th,td{font-weight:normal;text-align:left;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}blockquote,q{quotes:none}a:focus{outline:none}a:hover,a:active{outline:0}a img{border:0}img{max-width:100%;height:auto;}select{max-width:100%}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;font:inherit;vertical-align:baseline;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html{font-size:62.5%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}body{background:#fff;line-height:1;}article,aside,details,figcaption,figure,footer,header,main,nav,section{display:block}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0;}caption,th,td{font-weight:normal;text-align:left;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}blockquote,q{quotes:none}a:focus{outline:none}a:hover,a:active{outline:0}a img{border:0}img{}select{max-width:100%}
 
-/* General
+/* General 34line - height: auto;max-width: 100%;
 -------------------------------------------------------------- */
 body,
 button,
 input,
 select,
 textarea { font-family: "Open Sans", sans-serif; font-weight: 400; color: #777; font-size: 14px; line-height: 2; background-color: #fff; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; overflow-x: hidden; overflow-y: auto; }
-img { height: auto; max-width: 100%; vertical-align: middle; -ms-interpolation-mode: bicubic }
+img { vertical-align: middle; -ms-interpolation-mode: bicubic }
 p { margin: 0 0 20px; }
 strong,
 b,
@@ -210,7 +202,7 @@ input[type="submit"]:focus { outline: 0; background-color: #1c63b8; }
 /* Placeholder color */
 ::-webkit-input-placeholder { color: #999; }
 :-moz-placeholder { color: #999; }
-::-moz-placeholder { color: #999; opacity: 1; }/* Since FF19 lowers the opacity of the placeholder by default */ }
+::-moz-placeholder { color: #999; opacity: 1; }/* Since FF19 lowers the opacity of the placeholder by default */
 :-ms-input-placeholder { color: #999; }
 
 /* Links */
@@ -728,7 +720,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 /* Header Aside Content */
 #site-header #header-aside { float: right; margin-top: 4px; }
 #site-header .header-info { float: right; }
-#site-header .header-info .info-wrap { display: table; overflow: hidden;  width: 100%; }
+#site-header .header-info .info-wrap { display: table; overflow: hidden;  width: 100%; height: 86px; }
 #site-header .header-info .info-i,
 #site-header .header-info .info-c { display: table-cell; text-align: left; vertical-align: middle; line-height: 20px; }
 #site-header .header-info .info-i { width: 40px; }
@@ -1269,7 +1261,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 #footer { background-color: #20252b; font-size: 14px; padding: 105px 0 35px; position: relative; z-index: 1; border-style: solid; }
 #footer ::-webkit-input-placeholder { color: #999; }
 #footer :-moz-placeholder { color: #999; }
-#footer ::-moz-placeholder { color: #999; opacity: 1; }/* Since FF19 lowers the opacity of the placeholder by default */ }
+#footer ::-moz-placeholder { color: #999; opacity: 1; }/* Since FF19 lowers the opacity of the placeholder by default */
 #footer:-ms-input-placeholder { color: #999; }
 
 /* Bottom Bar
