@@ -17,7 +17,7 @@
 /* Columns
 -------------------------------------------------------------- */
 /* Style 1 */
-.half-background.style-1 { background-image:url('../img/crew/crew 685x501.jpg'); background-size: cover; overflow: hidden; background-position: center; background-repeat: no-repeat; }
+.half-background.style-1 { background-image:url('../img/crew/boja_centriran.png'); background-size: cover; overflow: hidden; background-position: center; background-repeat: no-repeat; }
 .half-background.style-2 { background-image:url('../img/bg-why-2.jpg'); background-size: cover; overflow: hidden; background-position: center; background-repeat: no-repeat; }
 @media only screen and (max-width: 991px) {
 	.half-background.style-1 { height: 450px; }
